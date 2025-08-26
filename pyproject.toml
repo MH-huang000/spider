@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "spider"
+version = "0.1.0"
+description = ""
+authors = ["MH"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.2"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.2.2"
+pymupdf = "^1.24.4"
+python-docx = "^1.1.2"
+pillow = "^10.3.0"
+panda = "^0.3.1"
+pandas = "^2.2.2"
+pytesseract = "^0.3.10"
+pypdf2 = "^3.0.1"
+pycryptodome = "^3.20.0"
+reportlab = "^4.2.0"
+openpyxl = "^3.1.4"
+pikepdf = "^9.5.0"
+pdf2image = "^1.17.0"
+python-pptx = "^1.0.2"
+comtypes = "^1.4.10"
+pywin32 = "^308"
+fpdf = "^1.7.2"
+pygetwindow = "^0.0.9"
+pyautogui = "^0.9.54"
+cloudscraper = "^1.2.71"
+selenium = "^4.34.2"
+undetected-chromedriver = "^3.5.5"
+ace-tools = "^0.0"
+tools = "^0.1.9"
+pdfplumber = "^0.11.5"
+webdriver-manager = "^4.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

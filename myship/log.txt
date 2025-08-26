@@ -1,0 +1,264 @@
+衣物福袋
+<div class="modal fade text-center" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header mfp-close-btn-in">
+                    <h3 class="modal-title" id="myModalLabel1">加入成功</h3>
+                    <button title="Close (Esc)" type="button" class="mfp-close " data-dismiss="modal" aria-label="Close">×</button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        商品已加入購物車，是否直接前往結帳？
+                    </p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-border-fill" data-dismiss="modal">
+                        繼續選購
+                    </button>
+                    <button type="button" class="btn btn-fill-out btn-addtocart" data-dismiss="modal" onclick="createCart()">
+                        直接結帳
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+INGNI黑色袖套針織上衣
+<div class="modal fade text-center" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header mfp-close-btn-in">
+                    <h3 class="modal-title" id="myModalLabel1">加入成功</h3>
+                    <button title="Close (Esc)" type="button" class="mfp-close " data-dismiss="modal" aria-label="Close">×</button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        商品已加入購物車，是否直接前往結帳？
+                    </p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-border-fill" data-dismiss="modal">
+                        繼續選購
+                    </button>
+                    <button type="button" class="btn btn-fill-out btn-addtocart" data-dismiss="modal" onclick="createCart()">
+                        直接結帳
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+衣物福袋
+<div class="modal fade text-center" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" style="display: none; padding-right: 20px;" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header mfp-close-btn-in">
+                    <h3 class="modal-title" id="myModalLabel1">加入成功</h3>
+                    <button title="Close (Esc)" type="button" class="mfp-close " data-dismiss="modal" aria-label="Close">×</button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        商品已加入購物車，是否直接前往結帳？
+                    </p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-border-fill" data-dismiss="modal">
+                        繼續選購
+                    </button>
+                    <button type="button" class="btn btn-fill-out btn-addtocart" data-dismiss="modal" onclick="createCart()">
+                        直接結帳
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+INGNI黑色袖套針織上衣
+<div class="modal fade text-center show" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" style="display: block; padding-right: 20px;" aria-modal="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header mfp-close-btn-in">
+                    <h3 class="modal-title" id="myModalLabel1">加入成功</h3>
+                    <button title="Close (Esc)" type="button" class="mfp-close " data-dismiss="modal" aria-label="Close">×</button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        商品已加入購物車，是否直接前往結帳？
+                    </p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-border-fill" data-dismiss="modal">
+                        繼續選購
+                    </button>
+                    <button type="button" class="btn btn-fill-out btn-addtocart" data-dismiss="modal" onclick="createCart()">
+                        直接結帳
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+Final
+<div class="modal fade text-center" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" style="display: block; padding-right: 20px;" aria-modal="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header mfp-close-btn-in">
+                    <h3 class="modal-title" id="myModalLabel1">加入成功</h3>
+                    <button title="Close (Esc)" type="button" class="mfp-close " data-dismiss="modal" aria-label="Close">×</button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        商品已加入購物車，是否直接前往結帳？
+                    </p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-border-fill" data-dismiss="modal">
+                        繼續選購
+                    </button>
+                    <button type="button" class="btn btn-fill-out btn-addtocart" data-dismiss="modal" onclick="createCart()">
+                        直接結帳
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+衣物福袋
+<div class="modal fade text-center" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" style="display: none; padding-right: 20px;" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header mfp-close-btn-in">
+                    <h3 class="modal-title" id="myModalLabel1">加入成功</h3>
+                    <button title="Close (Esc)" type="button" class="mfp-close " data-dismiss="modal" aria-label="Close">×</button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        商品已加入購物車，是否直接前往結帳？
+                    </p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-border-fill" data-dismiss="modal">
+                        繼續選購
+                    </button>
+                    <button type="button" class="btn btn-fill-out btn-addtocart" data-dismiss="modal" onclick="createCart()">
+                        直接結帳
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+INGNI黑色袖套針織上衣
+<div class="modal fade text-center show" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" style="display: block; padding-right: 20px;" aria-modal="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header mfp-close-btn-in">
+                    <h3 class="modal-title" id="myModalLabel1">加入成功</h3>
+                    <button title="Close (Esc)" type="button" class="mfp-close " data-dismiss="modal" aria-label="Close">×</button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        商品已加入購物車，是否直接前往結帳？
+                    </p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-border-fill" data-dismiss="modal">
+                        繼續選購
+                    </button>
+                    <button type="button" class="btn btn-fill-out btn-addtocart" data-dismiss="modal" onclick="createCart()">
+                        直接結帳
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+Final
+<div class="modal fade text-center" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" style="display: block; padding-right: 20px;" aria-modal="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header mfp-close-btn-in">
+                    <h3 class="modal-title" id="myModalLabel1">加入成功</h3>
+                    <button title="Close (Esc)" type="button" class="mfp-close " data-dismiss="modal" aria-label="Close">×</button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        商品已加入購物車，是否直接前往結帳？
+                    </p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-border-fill" data-dismiss="modal">
+                        繼續選購
+                    </button>
+                    <button type="button" class="btn btn-fill-out btn-addtocart" data-dismiss="modal" onclick="createCart()">
+                        直接結帳
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+衣物福袋
+<div class="modal fade text-center" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" style="display: none; padding-right: 20px;" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header mfp-close-btn-in">
+                    <h3 class="modal-title" id="myModalLabel1">加入成功</h3>
+                    <button title="Close (Esc)" type="button" class="mfp-close " data-dismiss="modal" aria-label="Close">×</button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        商品已加入購物車，是否直接前往結帳？
+                    </p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-border-fill" data-dismiss="modal">
+                        繼續選購
+                    </button>
+                    <button type="button" class="btn btn-fill-out btn-addtocart" data-dismiss="modal" onclick="createCart()">
+                        直接結帳
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+INGNI黑色袖套針織上衣
+<div class="modal fade text-center show" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" style="display: block; padding-right: 20px;" aria-modal="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header mfp-close-btn-in">
+                    <h3 class="modal-title" id="myModalLabel1">加入成功</h3>
+                    <button title="Close (Esc)" type="button" class="mfp-close " data-dismiss="modal" aria-label="Close">×</button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        商品已加入購物車，是否直接前往結帳？
+                    </p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-border-fill" data-dismiss="modal">
+                        繼續選購
+                    </button>
+                    <button type="button" class="btn btn-fill-out btn-addtocart" data-dismiss="modal" onclick="createCart()">
+                        直接結帳
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+Final
+<div class="modal fade text-center" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" style="display: block; padding-right: 20px;" aria-modal="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header mfp-close-btn-in">
+                    <h3 class="modal-title" id="myModalLabel1">加入成功</h3>
+                    <button title="Close (Esc)" type="button" class="mfp-close " data-dismiss="modal" aria-label="Close">×</button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        商品已加入購物車，是否直接前往結帳？
+                    </p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-border-fill" data-dismiss="modal">
+                        繼續選購
+                    </button>
+                    <button type="button" class="btn btn-fill-out btn-addtocart" data-dismiss="modal" onclick="createCart()">
+                        直接結帳
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
