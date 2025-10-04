@@ -1,7 +1,9 @@
 """要先登好會員，程式會去工作管理員砍掉Edge，這樣才能正常執行"""
+"""遇到錯誤請先更新 Edge Driver，或刪掉 Driver 讓 Selenium Manager 自動下載"""
 import edge_killer
 import os
 import time
+from contextlib import suppress
 from selenium import webdriver
 from selenium.webdriver.edge.service import Service as EdgeService
 from selenium.webdriver.edge.options import Options
@@ -10,14 +12,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, ElementClickInterceptedException
+from selenium.common.exceptions import TimeoutException, ElementClickInterceptedException, SessionNotCreatedException
 
 # ---- 配置區塊 ----
 USER_DATA_DIR = r"C:\Users\MH\AppData\Local\Microsoft\Edge\User Data"
 PROFILE_DIRECTORY = "Profile 2"
 DRIVER_PATH = r"C:\browserdriver\edgedriver\msedgedriver.exe"
 CLOTHES_FILE = "clothes.txt"  # 商品名稱列表檔案，放在腳本同一目錄
-PRODUCT_URL = "https://myship.7-11.com.tw/general/detail/GM2504095967230"  # 商品頁 URL
+PRODUCT_URL = "https://myship.7-11.com.tw/general/detail/GM2509245601881"  # 商品頁 URL
 STORE_NAME = "富裕門市"  # 送貨門市名稱
 
 # ----------------
@@ -29,14 +31,29 @@ log_path = os.path.join(BASE_DIR, 'log.txt')
 log_path2 = os.path.join(BASE_DIR, 'log2.txt')
 
 
+def _build_edge_service(allow_custom_path=True):
+    if allow_custom_path and DRIVER_PATH and os.path.exists(DRIVER_PATH):
+        return EdgeService(executable_path=DRIVER_PATH, log_path=os.devnull)
+    return EdgeService(log_path=os.devnull)
+
 def get_driver():
     """啟動 Edge 瀏覽器並帶入使用者資料，以保留登入狀態"""
     options = Options()
     options.add_argument("--start-maximized")
     options.add_argument(f"--user-data-dir={USER_DATA_DIR}")
     options.add_argument(f"--profile-directory={PROFILE_DIRECTORY}")
-    service = EdgeService(executable_path=DRIVER_PATH, log_path=os.devnull)
-    return webdriver.Edge(service=service, options=options)
+    service = _build_edge_service()
+    try:
+        return webdriver.Edge(service=service, options=options)
+    except SessionNotCreatedException as exc:
+        message = str(exc).lower()
+        if "only supports microsoft edge version" not in message:
+            raise
+        print("偵測到 Edge Driver 版本不相容，改用 Selenium Manager 下載相容版本...")
+        with suppress(Exception):
+            service.stop()
+        fallback_service = _build_edge_service(allow_custom_path=False)
+        return webdriver.Edge(service=fallback_service, options=options)
 
 def clean_cart(driver):
     print("清空購物車")

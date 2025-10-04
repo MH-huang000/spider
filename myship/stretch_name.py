@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # 2. 指定要抓取的網頁 URL
-url = "https://myship.7-11.com.tw/general/detail/GM2504095967230"  # <- 改成你的商品列表頁面
+url = "https://myship.7-11.com.tw/general/detail/GM2509245601881"  # <- 改成你的商品列表頁面
 
 # 3. 發送 HTTP GET 請求，並處理編碼
 response = requests.get(url)
